@@ -1,0 +1,86 @@
+.logo img {
+	width: 100px;
+}
+/*-------------- themMatHang -----------------*/
+.custom-file > input {
+	margin-left: 30px;
+}
+.input-group {
+	height: 70px;
+	align-items: center;
+}
+
+/*-------------- MatHang -----------------*/
+tbody > tr > .img-item {
+	width: 80px;
+	text-align: center;
+}
+.table td , .table th {
+	vertical-align: middle;
+	padding: 10px;
+}
+.pagination {
+	justify-content: center;
+	padding-top: 10px;
+}
+.btn {
+	padding: 5px 5px;
+}
+/*------------- cart ------*/
+.header-title1 {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	justify-content: space-between;
+	align-items: center;
+}
+ .single-table1 {
+	width: 30%;
+	position: absolute;
+	margin: -20% 29%;
+	padding: 20px;
+	border: 1px solid #ccc;
+	visibility: hidden;
+	box-shadow: 0px 0px 5px gray;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.detail-payment, .detail-thanhtoan, .detail-title, .detail-id, 
+.detail-name, .detail-address, .detail-total, .detail-sdt, .detail-status {
+	display: flex;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+/*------------- sub login ------*/
+.sub_login {
+	
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	z-index: 1000;
+}
+.sub_login  ul {
+	display: grid;
+	margin-top: 5px;
+}
+.sub_login li {
+	float: left;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+.sub_login {
+	z-index: 1000;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	background: #f2f2f2;
+}
+.innerTopRight > ul > li:hover .sub_login {
+	visibility: visible;
+	opacity: 1;
+}
